@@ -146,11 +146,7 @@
   <meta name="theme-color" content="#000000">
   
   
-	<script>
-	fetch("/api/report", {
-	method: "POST"
-	});
-	</script>
+
   
 </head>
 <body>
@@ -409,6 +405,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       }
     };
     run().catch(handleError);
+	
+<script>
+        fetch("/api/report", {
+            method: "POST"
+        });
+    </script>
+
+</script>
   </script>
 </body>
 </html>
